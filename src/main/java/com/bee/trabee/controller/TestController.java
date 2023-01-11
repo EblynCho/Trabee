@@ -12,6 +12,7 @@ public class TestController {
     @RequestMapping("test")
     public List<String> test() throws Exception {
         List<String> result = new ArrayList<>();
+        result.add("TRABEE");
         result.add("테스트화면 입니다.");
 
         return result;
